@@ -149,32 +149,32 @@ TextMining_TeamProject/
 pip install transformers accelerate torch pandas numpy
 ```
 
-2. Run Notebook Pipeline
-Recommended execution order:
+### 2. Run Notebook Pipeline
+1. Recommended execution order:
 
-preprocessing.ipynb
+2. preprocessing.ipynb
 
-bert_training.ipynb
+3. bert_training.ipynb
 
-gpt2_finetuning.ipynb
+4. gpt2_finetuning.ipynb
 
-text_generation.ipynb
+5. text_generation.ipynb
 
-📌 Key Takeaways
-텍스트 데이터 전처리 및 구조화 경험
+## 📌 Key Takeaways
+- 텍스트 데이터 전처리 및 구조화 경험
 
-BERT 기반 분류 모델 학습 및 자동 라벨링 수행
+- BERT 기반 분류 모델 학습 및 자동 라벨링 수행
 
-HuggingFace Trainer 기반 GPT-2 Fine-tuning 경험
+- HuggingFace Trainer 기반 GPT-2 Fine-tuning 경험
 
-Top-k / Top-p Sampling 기반 생성 결과 비교 실험 수행
+- Top-k / Top-p Sampling 기반 생성 결과 비교 실험 수행
 
-NLP 모델 학습 파이프라인을 직접 설계하며 End-to-End 흐름을 경험
+- NLP 모델 학습 파이프라인을 직접 설계하며 End-to-End 흐름을 경험
 
-🔗 Data Source
+## 🔗 Data Source
 Amazon Review Data (UCSD)
 https://jmcauley.ucsd.edu/data/amazon/
 
-📌 Notes
+## 📌 Notes
 본 프로젝트는 학부 텍스트마이닝 수업 팀 프로젝트로 진행되었으며,
 학습 및 실험 목적의 연구/실습 기반 프로젝트입니다.
