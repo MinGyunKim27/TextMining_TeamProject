@@ -120,46 +120,6 @@ Below are sample generated sentences from the fine-tuned GPT-2 model:
 
 ---
 
-## 📂 Project Structure
-```
-TextMining_TeamProject/
-├── data/
-│ ├── raw/
-│ ├── processed/
-│ ├── labeled/
-│ └── txt_dataset/
-├── notebooks/
-│ ├── preprocessing.ipynb
-│ ├── bert_training.ipynb
-│ ├── gpt2_finetuning.ipynb
-│ └── text_generation.ipynb
-├── outputs/
-│ └── generated_samples.txt
-└── README.md
-```
-
-*(structure may differ depending on local environment)*
-
----
-
-## 🚀 How to Run
-
-### 1. Install Dependencies
-```bash
-pip install transformers accelerate torch pandas numpy
-```
-
-### 2. Run Notebook Pipeline
-1. Recommended execution order:
-
-2. preprocessing.ipynb
-
-3. bert_training.ipynb
-
-4. gpt2_finetuning.ipynb
-
-5. text_generation.ipynb
-
 ## 📌 Key Takeaways
 - 텍스트 데이터 전처리 및 구조화 경험
 
