@@ -121,7 +121,7 @@ Below are sample generated sentences from the fine-tuned GPT-2 model:
 ---
 
 ## 📂 Project Structure
-
+```
 TextMining_TeamProject/
 ├── data/
 │ ├── raw/
@@ -136,7 +136,7 @@ TextMining_TeamProject/
 ├── outputs/
 │ └── generated_samples.txt
 └── README.md
-
+```
 
 *(structure may differ depending on local environment)*
 
